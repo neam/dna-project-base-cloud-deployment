@@ -51,7 +51,7 @@ mkdir -p "$DEPLOYMENT_DIR"
 
 # export the current app config (making sure that the required config vars are set properly (tip: use your local secrets.php file to supply sensitive configuration values when deploying from locally)
 
-export CONFIG_INCLUDE=vendor/neam/yii-dna-deployment/deploy/generate-config.php
+export CONFIG_INCLUDE=vendor/neam/dna-project-base-cloud-deployment/deploy/generate-config.php
 
 # dry-run config export to catch errors during the process
 set +e
@@ -117,7 +117,7 @@ echo 'Config is prepared for '$APPVHOST'.'
 echo
 echo "To deploy to docker-cloud (using the currently set Docker Cloud user 'DOCKERCLOUD_USER=$DOCKERCLOUD_USER'):"
 echo
-echo "  vendor/neam/yii-dna-deployment/deploy/to-docker-cloud.sh $DEPLOYMENT_DIR"
+echo "  vendor/neam/dna-project-base-cloud-deployment/deploy/to-docker-cloud.sh $DEPLOYMENT_DIR"
 echo
 echo '(Make sure you have built and pushed the docker images docker-cloud registry before deploying)'
 echo

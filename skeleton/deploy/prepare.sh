@@ -1,1 +1,1 @@
-source vendor/neam/yii-dna-deployment/deploy/prepare.sh
+source vendor/neam/dna-project-base-cloud-deployment/deploy/prepare.sh

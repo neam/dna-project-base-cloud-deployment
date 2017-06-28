@@ -8,6 +8,6 @@ script_path=`dirname $0`
 cd $script_path/..
 
 # run actual command
-vendor/neam/yii-dna-deployment/deploy/generate-config.sh
+vendor/neam/dna-project-base-cloud-deployment/deploy/generate-config.sh
 
 exit 0

@@ -105,7 +105,7 @@ tag_for_service_in_stack TAG_TO_PUSH_PHP
 tag_for_service_in_stack TAG_TO_PUSH_NGINX
 
 if [ ! "$SKIP_BUILD" == "1" ]; then
-  vendor/neam/yii-dna-deployment/deploy/copy-src.sh
+  vendor/neam/dna-project-base-cloud-deployment/deploy/copy-src.sh
   build_src_image_for_service_in_stack $TAG_TO_PUSH_PHP php
   build_src_image_for_service_in_stack $TAG_TO_PUSH_NGINX nginx
   echo
