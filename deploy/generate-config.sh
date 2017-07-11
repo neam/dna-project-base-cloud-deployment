@@ -119,5 +119,9 @@ echo "To deploy to docker-cloud (using the currently set Docker Cloud user 'DOCK
 echo
 echo "  vendor/neam/dna-project-base-cloud-deployment/deploy/to-docker-cloud.sh $DEPLOYMENT_DIR"
 echo
-echo '(Make sure you have built and pushed the docker images docker-cloud registry before deploying)'
+echo "To start a remote shell in the newly deployed stack's worker service:"
 echo
+echo "  vendor/neam/dna-project-base-cloud-deployment/util/docker-cloud-shell.sh $DEPLOYMENT_DIR"
+echo
+#echo '(Make sure you have built and pushed the docker images docker-cloud registry before deploying)'
+#echo
