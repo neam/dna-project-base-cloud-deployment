@@ -1,6 +1,6 @@
 DNA Project Base Deployment
 ==================
 
-Deploying Yii DNA 12-factor-apps via Docker Stack.
+Deploy [docker-stack](https://github.com/neam/docker-stack)-based projects to [docker-cloud](https://cloud.docker.com/app/neam).
 
 TODO: Include documentation adapted from [DNA Project Base](neamlabs.com/dna-project-base/).
