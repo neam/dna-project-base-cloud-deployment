@@ -8,6 +8,6 @@ script_path=`dirname $0`
 cd $script_path/..
 
 # run actual command
-vendor/neam/dna-project-base-cloud-deployment/deploy/build.sh
+vendor/neam/dna-project-base-cloud-deployment/deploy/build.sh $@
 
 exit 0

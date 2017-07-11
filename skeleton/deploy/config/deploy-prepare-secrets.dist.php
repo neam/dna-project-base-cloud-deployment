@@ -7,7 +7,9 @@ use Exception;
 // Non-versioned secrets that are only required in the deploy prepare step
 
 $_ENV["DOCKERCLOUD_USER"] = "";
-$_ENV["DOCKERCLOUD_PASS"] = "";
+$_ENV["DOCKERCLOUD_EMAIL"] = "";
+$_ENV["DOCKERCLOUD_PASSWORD"] = "";
+$_ENV["DOCKERCLOUD_APIKEY"] = "";
 
 // Non-versioned secrets that depend on production stability level
 
@@ -28,11 +30,11 @@ $_ENV["PRODUCTION_GA_TRACKING_ID"] = "";
 
 $_ENV["DEV_DATABASE_HOST"] = "";
 $_ENV["DEV_DATABASE_PORT"] = "3306";
-$_ENV["DEV_DATABASE_HOST_TENANT_PASSWORD"] = "";
-$_ENV["DEV_DATABASE_HOST_ROOT_USER"] = "master";
-$_ENV["DEV_DATABASE_HOST_ROOT_PASSWORD"] = "";
+$_ENV["DEV_DATABASE_PASSWORD"] = "";
+$_ENV["DEV_DATABASE_ROOT_USER"] = "master";
+$_ENV["DEV_DATABASE_ROOT_PASSWORD"] = "";
 $_ENV["PROD_DATABASE_HOST"] = "";
 $_ENV["PROD_DATABASE_PORT"] = "3306";
-$_ENV["PROD_DATABASE_HOST_TENANT_PASSWORD"] = "";
-$_ENV["PROD_DATABASE_HOST_ROOT_USER"] = "master";
-$_ENV["PROD_DATABASE_HOST_ROOT_PASSWORD"] = "";
+$_ENV["PROD_DATABASE_PASSWORD"] = "";
+$_ENV["PROD_DATABASE_ROOT_USER"] = "master";
+$_ENV["PROD_DATABASE_ROOT_PASSWORD"] = "";
