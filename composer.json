@@ -19,11 +19,8 @@
         "deploy/generate-config.sh",
         "deploy/show-prepared.sh",
         "deploy/to-docker-cloud.sh",
-        "util/prepare-new-db.sh",
         "util/setup-db.sh",
-        "util/docker-cloud-diagnose.sh",
-        "util/docker-cloud-shell.sh",
-        "util/upload-current-media-as-public-files.sh"
+        "util/docker-cloud-shell.sh"
     ],
     "require": {
         "php": ">=5.3.0",
